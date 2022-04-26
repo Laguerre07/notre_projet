@@ -1,0 +1,146 @@
+/* reset */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: 10px auto;
+  background-image: url(../images/fond_jaune.png);
+  position: relative;
+}
+
+header {
+background-image: url(../images/separateur.png);
+background-repeat: repeat-x;
+background-position: bottom;
+background-position-x: 10px;
+height: 130px;
+}
+
+.en_tete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  margin: 15px 20px 0px;
+  cursor: pointer;
+}
+.logo h2 {
+  margin-left: 20px;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.logo h1 {
+  margin-top: 0px;
+  display: inline-block;
+  text-transform: uppercase;
+
+}
+
+nav {
+  display: flex;
+  margin-top: 30%;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 10px;
+  text-transform: uppercase;
+  list-style: none;
+  color: inherit;
+  font-weight: 1em;
+}
+
+.sanfrancisco{
+display: flex ;
+
+}
+.sanfrancisco img{
+  height: 210px;
+  width: 85%;
+  margin: 5px auto;
+}
+
+nav a:hover {
+  height: 10px;
+  border-bottom: 3px solid maroon;
+  padding-bottom: 20px;
+  color: maroon;
+  
+}
+.seconde_section{
+  width: 85%;
+  margin: 15px auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titre_section{
+  display: inline-flex;
+  font-size: 10px;
+  align-items: center;
+}
+
+
+.titre_section h1{
+  font-size: 2.5em;
+  margin-left: 10px;
+  font-weight: normal;
+  
+}
+
+.para_zozor{
+  text-align: justify;
+  width: 750px;
+  margin: 10px 19px 0px 0px; 
+
+}
+
+.profil_zozor{
+ background-color: grey;
+ display: grid;
+ width: 63%;
+ height: 385px;
+ color: white;
+}
+
+.profil_zozor img, h1{
+  margin: auto;
+}
+
+.profil_zozor h1{
+text-transform: uppercase;
+font-size: 18px;
+color: inherit;
+font-weight: normal;
+}
+
+.bulle{
+  position: absolute;
+  top: 65%;
+  left: 70%;
+}
+
+.profil_zozor p{
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 0.07em;
+  color: inherit;
+}
+
+.icons_contact_zozor{
+  margin: auto;
+  
+}
