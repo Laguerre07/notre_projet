@@ -52,6 +52,10 @@ nav {
   margin-right: 50px;
 }
 
+nav:active{
+  color: rgba(128, 62, 0, 0.575);
+}
+
 nav a {
   text-decoration: none;
   margin-left: 10px;
